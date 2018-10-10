@@ -378,15 +378,17 @@ footer{
     margin: 16px 0;
     border:1px solid transparent;
     transition: all 200ms ease-in-out;
-    /* cursor: pointer; */
+  }
+  .people-list.openable{
+     cursor: pointer; 
   }
     .people-list.box{
       box-shadow: 0 1px 1px rgba(0,0,0,0.2);
     }
-  /* .people-list:hover{
+   .people-list.openable:hover{
       border:1px solid #EEEEEE;
-      box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-  } */
+      box-shadow: 0 3px 2px rgba(0,0,0,0.2);
+  } 
     .people-list a{
       text-decoration: none;
     }

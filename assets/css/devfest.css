@@ -1,6 +1,7 @@
 .speakers{
 	background:#FFFFFF;
 	border-top: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
 }
 	.speakers .para{
       font-size: 16px;

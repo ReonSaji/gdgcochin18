@@ -2,19 +2,19 @@ $(window).bind("scroll resize load",scrollPositionUpdate);
 
 $(document).ready(function(){
 
-	// $(".people-list").click(function(){
-	// 	$photo = $(this).find(".pic img").attr("src");
-	// 	$name = $(this).find(".name").html();
-	// 	$content = $(this).find(".data-hidden").html();
+	$(".people-list.openable").click(function(){
+		$photo = $(this).find(".pic img").attr("src");
+		$name = $(this).find(".name").html();
+		$content = $(this).find(".data-hidden").html();
 
-	// 	$(".profileOpener .pic img").attr("src",$photo);
-	// 	$(".profileOpener .title").html($name);
-	// 	$(".profileOpener .content-container").html($content);
+		$(".profileOpener .pic img").attr("src",$photo);
+		$(".profileOpener .title").html($name);
+		$(".profileOpener .content-container").html($content);
 
-	// 	$(".profileOpener").fadeIn(300);
+		$(".profileOpener").fadeIn(300);
 		
-	// 	return false;
-	// });
+		return false;
+	});
 	$(".profileOpener .closex").click(function(){
 		$(".profileOpener").fadeOut(300);
 		return false;
